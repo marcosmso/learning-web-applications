@@ -1,0 +1,99 @@
+/* SHADOWS */
+/* .container{
+    background:linear-gradient(to left, #00ccff, #b3f0ff);
+    box-shadow: 1px 2px 5px black;
+}
+
+h1{
+    color:#ffffff;
+    text-shadow: 2px 2px 5px black;
+} */
+
+body{
+    /* background-image: url(zebra.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: #fff;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin:auto;
+    display: block;
+}
+
+.borderImg{
+    border-radius: 10px;
+}
+
+/* GROUPING - also works:  h1, .class, #id */
+h1{ 
+    color:white;
+    font-family: sans-serif;
+    line-height: 1rem;
+    font-style: italic;
+}
+
+h2 { 
+    color:white;
+    font-family: sans-serif;
+    line-height: 1rem;
+    font-style: italic;
+}
+
+.formatting{
+    font-size:30px;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    word-spacing: 10px;
+    text-transform: uppercase; 
+}
+
+ul li{
+    color:white;
+    font-size: 20px;    
+}
+
+ul > li{  /*li one level deep*/
+    color: yellow;
+}
+
+.row {
+    display: flex;
+    width: 100%    
+}
+
+.row::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+
+.col-1{width:8.33%}
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:66.66%}
+.col-8{width:75%}
+.col-9{width:50%}
+.col-10{width:66.66%}
+.col-11{width:75%}
+.col-12{width: 100%;}
+
+* {
+    box-sizing: border-box;   
+}
+
+[class="col-"]{
+    border: 2px solid red;
+    padding: 15px;
+    float: left;
+}
