@@ -1,0 +1,52 @@
+/* SHADOWS */
+.container{
+    background:linear-gradient(to left, #00ccff, #b3f0ff);
+    box-shadow: 1px 2px 5px black;
+}
+
+h1{
+    color:#ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*------------------------------------------------------------*/
+/* BACKGROUND AND BORDERS */
+body{
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderImg{
+    border: 2px solid red;
+    border-right: 2px dashed red;
+}
+/*------------------------------------------------------------*/
+
+ul li{
+    color:white;
+    font-size: 20px;    
+}
+
+ul > li{  /*li one level deep*/
+    color: yellow;
+}
+
+/*------------------------------------------------------------*/
+/* GROUPING */
+
+h1, h2, h3 { /* also works:  h1, .class, #id */
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    font-family: sans-serif;
+}
+
+/*------------------------------------------------------------*/
+/* Specificity */
+body h1{ 
+    color: green;
+}
+
+html h1{
+     color:red;
+}
