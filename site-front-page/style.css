@@ -180,6 +180,28 @@ input[type="text"]{
     border-radius: 7px;
 }
 
+footer.footsy {
+    background-color: #667;
+    padding: 10%;
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
 /* ########## mobile ########### */
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)){
@@ -226,14 +248,18 @@ input[type="text"]{
         margin: 0;
     }
 
+    div.mobileStack {
+        width: 50%;
+        display: block;
+    }
+
     div.box{
-        padding: 5px;
+        padding: 50px;
         display: block;
     }
 
     div.slopeIcon {
         margin: 10px;
-
     }
 
     div.slopeIcon img {
