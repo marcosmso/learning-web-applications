@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+section img{
+    display: inline;
+    align-items: flex;
+}
+
+img {
+    width: 30%;
+    height: 20vh;
+    /* margin: calc(10%/6); */
+    object-fit: cover;
+    transition: border-radius 1s, position 1s;
+}
+
+img:hover {
+    border-radius: 5%;
+}
+
+nav{
+    text-transform: uppercase;
+    width: 30%;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 20px 0;
+    font-family: "Ubuntu";
+    margin-left: 10px;
+}
