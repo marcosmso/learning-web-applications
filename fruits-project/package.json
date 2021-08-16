@@ -1,0 +1,22 @@
+{
+  "name": "small-web-applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosmso/small-web-applications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosmso/small-web-applications/issues"
+  },
+  "homepage": "https://github.com/marcosmso/small-web-applications#readme",
+  "dependencies": {
+    "mongoose": "^5.13.7"
+  }
+}
